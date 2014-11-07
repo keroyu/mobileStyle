@@ -143,9 +143,9 @@ img.responsive { width: 100%; height: auto; }
 .article .date a.btn-fb, .article .date a.fb-search.ui-link { float: right; padding: 0 5px; font-size: 13px; line-height: 25px; margin-top: 3px; }
 
 .article-content { margin: 10px; line-height: 22px; }
-.article-content h3 { line-height: 19px; font-size: 19px; font-weight: bold; }
+.article-content h3 { line-height: 30px; font-size: 19px; font-weight: bold; }
 .article-content p { margin: 10px 0; }
-.article-content ul { list-style-type: decimal; padding-left: 20px; margin: 10px 0; }
+.article-content ul { list-style-type: decimal; padding-left: 40px; margin: 10px 0; }
 .article-content ul li { margin-bottom: 5px; }
 .article-content ul ol { font-size: 15px; list-style-type: disc; margin-left: 20px; list-style-type: upper-alpha; }
 
