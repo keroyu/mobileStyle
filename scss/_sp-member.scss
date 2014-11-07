@@ -1,0 +1,27 @@
+.member-info {
+	overflow: hidden;
+	white-space: nowrap;
+	> div { float: left; }
+}
+.member-info-pic {
+	width: 105px;
+}
+
+.member-info-detailList {
+	font-size: 16px;
+	line-height: 30px;
+	li { white-space: nowrap; overflow: hidden; }
+	span {
+		float: left;
+	}
+	.dt { width: 80px;  }
+	.dd {
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+}
+
+.member-info-form{
+	margin: 20px 0;
+	.ui-btn { margin-top: 15px; }
+}

@@ -1,0 +1,11 @@
+textarea {
+	min-height: 100px;
+}
+.ui-page-theme-a .ui-radio-on:after {
+	border-color: #bbd117;
+}
+.ui-select, input[type=radio] {
+	.ui-btn-icon-left:after, .ui-btn-icon-right:after {
+		background-color: #bbd117;
+	}
+}

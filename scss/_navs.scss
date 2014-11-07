@@ -1,0 +1,33 @@
+.ui-navbar{
+	li {
+		a:link {
+			background-color: #fff;
+			border-color: #0159A5; 
+			color: #0071D3;
+			font-size: 16px;
+			padding-left: 10px;
+			padding-right: 10px;
+			&.ui-btn-active { background: #0159A5; }
+		}
+		&.ui-block-a {
+			a {
+				-webkit-border-top-left-radius: 5px;
+				-webkit-border-bottom-left-radius: 5px;
+				-moz-border-radius-topleft: 5px;
+				-moz-border-radius-bottomleft: 5px;
+				border-top-left-radius: 5px;
+				border-bottom-left-radius: 5px;
+			}
+		}
+		&:last-child {
+			a {
+				-webkit-border-top-right-radius: 5px;
+				-webkit-border-bottom-right-radius: 5px;
+				-moz-border-radius-topright: 5px;
+				-moz-border-radius-bottomright: 5px;
+				border-top-right-radius: 5px;
+				border-bottom-right-radius: 5px;
+			}
+		}
+	}
+} 

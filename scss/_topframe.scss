@@ -1,0 +1,47 @@
+.topframe {
+	height: 45px;
+	background: url("../img/topbar_bg.png");
+	background-position: right bottom;
+	background-size: auto 45px;
+	text-align: center;
+	border-bottom: 3px solid #000;
+	a {
+		display: inline-block;
+		font-size: 22px;
+		height: 35px;
+		width: 35px;
+		margin: 12px 0 0 10px;
+		&:link, &:visited { color: #000; }
+	}
+	.logo {
+		margin: 0 auto;
+		width: 113px;
+		height: 40px;
+		background: url("../img/topbar_logo.png") no-repeat;
+		background-size: 113px 40px;
+	}
+}
+.topframe-menu {
+	background: #8BA305;
+	height: 35px;
+	ul {
+		li {
+			display: inline-block;
+			width: 25%;
+			a {
+				&:link, &:visited { color: #fff; }
+				line-height: 35px;
+				display: inline-block;
+				width: 100%;
+				font-size: 15px;
+				text-shadow: none;
+				text-align: center;
+				i { margin-right: 5px; }
+			}
+			&:hover, &:active { 
+				background: #fff; 
+				a:link, &:visited { color: #8BA305;  }
+			}
+		}
+	}
+}

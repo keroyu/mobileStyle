@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<title>APP大師點數扣款</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<!-- CORE JAVASCRIPT FILES TO CALL -->
+<script type="text/javascript" src="../../../scripts/lib/jquery.js"></script>
+<script type="text/javascript" src="../../../scripts/lib/jquery.mobile-1.4.0.min.js"></script>
+<script type="text/javascript" src="../../../scripts/main.js"></script>
+<link rel="stylesheet" href="../../../css/jquery.mobile-1.4.0.min.css">
+<!-- CORE JAVASCRIPT FILES TO CALL end -->
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" href="../../../css/base.css">
+</head>
+<body>
+<div data-role="navbar" class="block-white">
+  <ul>
+    <li><a href="#" class="ui-btn-active" data-ajax="false">購買遊戲點數</a></li>
+    <li><a href="#" class="last-tab" data-ajax="false">購買APP大師點數</a></li>
+  </ul>
+</div>
+<h2 class="heading-udl">APP大師點數扣款</h2>
+<div class="margin-lr">
+	<table class="mytable margin-top" width="100%">
+		<tr class="rsmodal-container"><td class="header rsmodal-fixed">E-Mail帳號</td><td class="rsmodal-resp"><p class="text-overflow">verylongemail@gmail.com</p></td></tr>
+		<tr><td class="header">手機帳號</td><td>0937999889</td></tr>
+		<tr><td class="header">Facebook<br>帳號</td><td>800112112</td></tr>
+		<tr><td class="header">OMG帳號</td><td>miniocean2552</td></tr>
+		<tr><td class="header">APP大師<br>現金點數</td><td>1,000</td></tr>
+		<tr><td class="header">APP大師<br>紅利點數</td><td>1,000</td></tr>
+		<tr><td class="header">扣除點數</td><td>1,000</td></tr>
+	</table>
+	<p class="help margin-top">選擇扣除：</p>
+	<div class="ui-grid-a">
+		<div class="ui-block-a"><input type="radio" name="method" id="cach" value="cach" checked="checked"><label for="cach">現金點數</label></div>
+		<div class="ui-block-b"><input type="radio" name="method" id="points" value="points" ><label for="points">紅利點數</label></div>
+	</div>
+	
+	<p class="red margin-tb">現金點數不足，無法付款！</p>
+	<a href="purchase.html" class="btn-big btn-cstPrimary" >確定付款</a>
+	<a class="ui-btn ui-miniui-shadow ui-corner-all ui-icon-back ui-btn-icon-left" href="#">重選付款方式</a>
+</div>
+</body>
+</html>

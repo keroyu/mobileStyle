@@ -1,0 +1,23 @@
+.mytable{
+	border: 1px solid #555; 
+	thead, .header{
+		text-shadow: none; 
+		text-align: center;
+		background: #555; 
+		color: #fff; 
+		line-height: 20px;
+		padding: 5px;
+	}
+	tbody{
+		td{ padding: 4px; text-align: left; border: 1px solid #555; }
+	}
+	th,td { 
+		vertical-align:middle;
+		.text-overflow {
+			display: block;
+		}
+		&:not(.header) { background: #fff; }
+	}
+	.text-center { padding: 5px 2px; }
+	.bd-btm { border-bottom: 3px solid #555; }
+}

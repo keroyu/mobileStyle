@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<title>簡訊驗證</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<!-- CORE JAVASCRIPT FILES TO CALL -->
+<script type="text/javascript" src="../../../scripts/lib/jquery.js"></script>
+<script type="text/javascript" src="../../../scripts/lib/jquery.mobile-1.4.0.min.js"></script>
+<script type="text/javascript" src="../../../scripts/main.js"></script>
+<link rel="stylesheet" href="../../../css/jquery.mobile-1.4.0.min.css">
+<!-- CORE JAVASCRIPT FILES TO CALL end -->
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" href="../../../css/base.css">
+</head>
+<body>
+<div class="main">
+	<p class="help">已向 <span class="red">0988688688</span> 發送驗證簡訊<br>請填入簡訊中的驗證碼</p>
+	<input type="number" pattern="[0-9]*" id="verify" name="verify" value="">
+	<a href="#" class="btn-big btn-cstPrimary" >確定</a>
+	<div class="warningBox" data-role="collapsible" data-theme="b" data-content-theme="b" data-collapsed-icon="info" data-expanded-icon="carat-u">
+		<h4>注意事項</h4>
+		<ul class="collapsed-list">
+			<li>1. 本次操作不收取費用、不會洩漏您的手機號碼。無法使用 0966 與 0968 開頭之門號！</li>
+			<li>2. 若無法收到手機認證簡訊，請於 10 分鐘後再重新註冊。</li>
+		</ul>
+	</div>
+</div>
+</body>
+</html>

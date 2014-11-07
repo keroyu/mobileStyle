@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<title>OMG帳號登入</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<!-- CORE JAVASCRIPT FILES TO CALL -->
+<script type="text/javascript" src="../../../scripts/lib/jquery.js"></script>
+<script type="text/javascript" src="../../../scripts/lib/jquery.mobile-1.4.0.min.js"></script>
+<script type="text/javascript" src="../../../scripts/main.js"></script>
+<link rel="stylesheet" href="../../../css/jquery.mobile-1.4.0.min.css">
+<!-- CORE JAVASCRIPT FILES TO CALL end -->
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" href="../../../css/base.css">
+</head>
+<body>
+<div class="margin-lr">
+	<label for="text-basic">OMG帳號</label>
+	<input type="text" value="" placeholder="需含身份證後4碼">
+	<label for="password">密碼</label>
+	<input type="password" name="password" id="password" value="" autocomplete="off" placeholder="請輸入6-14位英數字">
+	<a class="ui-btn ui-mini ui-icon-info ui-btn-icon-left ui-shadow ui-corner-all" onClick="alert('請至OMG官網查詢或修改您的密碼！')">忘記密碼／修改密碼</a>
+	<a href="" class="btn-big btn-cstPrimary margin-tb">登入</a>
+</div>
+<h2 class="heading-udl">其他方式登入</h2>
+<ul data-role="listview" class="mylist-1 mylist-icon-left cstListview" data-inset="true">
+  <li><a href="#"><i class="iconimg fb"></i><span class="txt">Facebook登入</span></a></li>
+<li><a href="#"><i class="iconimg phone"></i><span class="txt">手機登入</span></a></li>
+  <li><a href="#"><i class="iconimg mail"></i><span class="txt">信箱登入</span></a></li>
+</ul>
+</body>
+</html>

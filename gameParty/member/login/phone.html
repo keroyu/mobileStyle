@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<title>手機帳號登入</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<!-- CORE JAVASCRIPT FILES TO CALL -->
+<script type="text/javascript" src="../../../scripts/lib/jquery.js"></script>
+<script type="text/javascript" src="../../../scripts/lib/jquery.mobile-1.4.0.min.js"></script>
+<script type="text/javascript" src="../../../scripts/main.js"></script>
+<link rel="stylesheet" href="../../../css/jquery.mobile-1.4.0.min.css">
+<!-- CORE JAVASCRIPT FILES TO CALL end -->
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" href="../../../css/base.css">
+</head>
+<body>
+<div class="margin-lr">
+	<label for="text-basic">帳號</label>
+	<input type="number" name="number" pattern="[0-9]*" id="number-pattern" value="" placeholder="手機號碼即為您的帳號">
+	<label for="password">密碼</label>
+	<input type="password" name="password" id="password" value="" autocomplete="off" placeholder="請輸入6-10位英數字組合">
+	<a class="ui-btn ui-mini ui-icon-info ui-btn-icon-left ui-shadow ui-corner-all">忘記密碼／修改密碼</a>
+	<a href="" class="btn-big btn-cstPrimary margin-tb">下一步，簡訊驗證</a>
+</div>
+<h2 class="heading-udl">其他方式登入</h2>
+<ul data-role="listview" class="mylist-1 mylist-icon-left cstListview" data-inset="true">
+  <li><a href="#"><i class="iconimg fb"></i><span class="txt">Facebook登入</span></a></li>
+<li><a href="#"><i class="iconimg omg"></i><span class="txt">OMG登入</span></a></li>
+  <li><a href="#"><i class="iconimg mail"></i><span class="txt">信箱登入</span></a></li>
+</ul>
+</body>
+</html>

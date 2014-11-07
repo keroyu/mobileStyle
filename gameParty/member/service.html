@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<title>聯繫客服</title>
+<meta name="viewport" content="height=device-height,width=device-width,initial-scale=1.0,maximum-scale=1.0" >
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<!-- CORE JAVASCRIPT FILES TO CALL -->
+<script type="text/javascript" src="../../scripts/lib/jquery.js"></script>
+<script type="text/javascript" src="../../scripts/lib/jquery.mobile-1.4.0.min.js"></script>
+<script type="text/javascript" src="../../scripts/main.js"></script>
+<link rel="stylesheet" href="../../css/jquery.mobile-1.4.0.min.css">
+<!-- CORE JAVASCRIPT FILES TO CALL end -->
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" href="../../css/base.css">
+</head>
+<body>
+<div data-role="navbar" class="block-white">
+  <ul>
+    <li><a href="#" data-ajax="false">個人資料</a></li>
+    <li><a href="#" data-ajax="false">購買記錄</a></li>
+    <li><a href="#" class="last-tab ui-btn-active" data-ajax="false">聯繫客服</a></li>
+  </ul>
+</div>
+<h2 class="heading-udl">聯繫客服</h2>
+<div class="margin-lr">
+  <div class="normalToggleBox" data-role="collapsible" data-theme="b" data-collapsed="false" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" class="collapsible-list">
+    <h4>問題回報</h4>
+    <select name="questionType" id="questionType">
+    	<option value="">請選擇問題類型</option>
+    	<option value="">帳號</option>
+    	<option value="">儲值</option>
+    	<option value="">其他</option>
+    </select>
+		<select name="questionType" id="questionType">
+			<option value="">請選擇網站/遊戲</option>
+			<option value="">三國志拼圖大戰</option>
+			<option value="">跳躍吧！雞蛋漢堡</option>
+		</select>
+		<input type="number" name="number" pattern="[0-9]*" id="number-pattern" value="" placeholder="請輸入聯絡電話">
+		<textarea cols="40" rows="8" name="content" id="content" placeholder="請輸入問題內容"></textarea>
+		<a href="#" class="btn-big btn-cstPrimary">送出</a>
+	</div>
+	<div class="normalToggleBox" data-role="collapsible" data-theme="b"data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" class="collapsible-list">
+		<h4>回報記錄</h4>
+    <ul data-role="listview" class="mylist-2 records" data-inset="false">
+      <li><a href="#"><span class="date">2014-09-21 10:25:01 <span class="red">未回覆</span><span class="tag tag-alert">N</span></span><h3><span class="red">[AppMaster平台]</span> 問題類型</h3></a></li>
+      <li><a href="#"><span class="date">2014-09-21 10:25:01 <span class="lblue">已回覆</span><span class="tag tag-alert">N</span></span><h3><span class="red">[AppMaster平台]</span> 問題類型</h3></a></li>
+    </ul>
+	</div>
+  <p class="help margin-tb"><i class="fa fa-info-circle"></i> 僅供查詢三個月內的回報記錄</p>
+
+</div>
+
+</body>
+</html>

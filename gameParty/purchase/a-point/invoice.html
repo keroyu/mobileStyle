@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<title>發票資訊 (歐付寶)</title>
+<meta name="viewport" content="height=device-height,width=device-width,initial-scale=1.0,maximum-scale=1.0" >
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<!-- CORE JAVASCRIPT FILES TO CALL -->
+<script type="text/javascript" src="../../../scripts/lib/jquery.js"></script>
+<script type="text/javascript" src="../../../scripts/lib/jquery.mobile-1.4.0.min.js"></script>
+<script type="text/javascript" src="../../../scripts/main.js"></script>
+<link rel="stylesheet" href="../../../css/jquery.mobile-1.4.0.min.css">
+<!-- CORE JAVASCRIPT FILES TO CALL end -->
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" href="../../../css/base.css">
+</head>
+<body>
+<div data-role="navbar" class="block-white">
+  <ul>
+    <li><a href="#" data-ajax="false">購買遊戲點數</a></li>
+    <li><a href="#" class="last-tab ui-btn-active" data-ajax="false">購買APP大師點數</a></li>
+  </ul>
+</div>
+<h2 class="heading-udl">歐付寶付款</h2>
+<div class="margin-lr">
+	<label for="expire">選擇發票方式</label>
+	<select name="receipt" id="receipt">
+	    <option value="1">捐贈給慈善單位</option>
+	    <option value="2" selected>我要索取發票</option>
+	</select>
+	<div class="toggle">
+		<label for="title">姓名/發票抬頭</label>
+		<input type="text" value="" name="title" id="title">
+		<label for="tel">統一編號</label>
+		<input type="number" name="number" pattern="[0-9]*" value="">
+		<label for="tel">聯絡電話</label>
+		<input type="number" name="number" pattern="[0-9]*" value="">
+		<label for="address">寄送地址</label>
+		<div class="ui-grid-a">
+			<div class="ui-block-a"><select name="add1" id="add1"><option value="">請選擇</option><option value="">台北市</option><option value="">桃園市</option></select></div>
+			<div class="ui-block-b"><select name="add1" id="add1"><option value="">請選擇</option><option value="">中山區</option><option value="">信義區</option></select></div>
+		</div>
+		<input type="text" name="text-basic" id="text-basic" value="">
+		<p class="red help margin-tb">若因填寫不完整造成發票無法郵寄或無效，恕不另行通知也不補發，並視為捐贈發票。</p>
+	</div>
+	<a href="#" class="btn-big btn-cstPrimary" >下一步</a>
+	<a class="ui-btn ui-miniui-shadow ui-corner-all ui-icon-back ui-btn-icon-left" href="#">重選付款方式</a>
+</div>
+
+</body>
+</html>

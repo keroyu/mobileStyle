@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<title>信用卡_身份驗證</title>
+<meta name="viewport" content="height=device-height,width=device-width,initial-scale=1.0,maximum-scale=1.0" >
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<!-- CORE JAVASCRIPT FILES TO CALL -->
+<script type="text/javascript" src="../../../scripts/lib/jquery.js"></script>
+<script type="text/javascript" src="../../../scripts/lib/jquery.mobile-1.4.0.min.js"></script>
+<script type="text/javascript" src="../../../scripts/main.js"></script>
+<link rel="stylesheet" href="../../../css/jquery.mobile-1.4.0.min.css">
+<!-- CORE JAVASCRIPT FILES TO CALL end -->
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" href="../../../css/base.css">
+</head>
+<body>
+<div data-role="navbar" class="block-white">
+  <ul>
+    <li><a href="#" data-ajax="false">購買遊戲點數</a></li>
+    <li><a href="#" class="last-tab ui-btn-active" data-ajax="false">購買APP大師點數</a></li>
+  </ul>
+</div>
+<h2 class="heading-udl">信用卡 發送驗證碼</h2>
+<div class="margin-lr">
+	<div class="app-headblock">
+		<h2>購買金額</h2>
+		<p class="note note-big"><span class="red">150台幣 = 150現金點數</p>
+	</div>
+	<label for="">國家</label>
+	<div class="ui-grid-a">
+		<div class="ui-block-a"><select><option value="">亞洲</option><option value="">北美洲</option><option value="">歐洲</option></select></div>
+		<div class="ui-block-b"><select><option value="">台灣</option><option value="">美國</option><option value="">英國</option></select></div>
+	</div>
+	<label for="">手機號碼</label>
+	<input type="number" name="number" pattern="[0-9]*" value="" placeholder="886-0900000000">
+	<a href="#" class="btn-big btn-cstPrimary" >發送驗證碼</a>
+	<div class="warningBox" data-role="collapsible" data-theme="b" data-content-theme="b" data-collapsed-icon="info" data-expanded-icon="carat-u">
+		<h4>注意事項</h4>
+		<ul class="collapsed-list">
+			<li>1.提醒您，請勿隨意使用他人手機認證。所有資料均有紀錄，如有爭議，將提供電磁紀錄給相關單位查詢。</li>
+			<li>2.信用卡交易過程中，只有在您實際獲得點數後才會向您的發卡行請款。</li>
+			<li>3.信用卡交易金額，會依照您在APP大師的交易記錄與信用有所不同。</li>
+		</ul>
+	</div>
+</div>
+
+</body>
+</html>

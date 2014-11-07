@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<title>信用卡_輸入卡號</title>
+<meta name="viewport" content="height=device-height,width=device-width,initial-scale=1.0,maximum-scale=1.0" >
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<!-- CORE JAVASCRIPT FILES TO CALL -->
+<script type="text/javascript" src="../../../scripts/lib/jquery.js"></script>
+<script type="text/javascript" src="../../../scripts/lib/jquery.mobile-1.4.0.min.js"></script>
+<script type="text/javascript" src="../../../scripts/main.js"></script>
+<link rel="stylesheet" href="../../../css/jquery.mobile-1.4.0.min.css">
+<!-- CORE JAVASCRIPT FILES TO CALL end -->
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" href="../../../css/base.css">
+</head>
+<body>
+<div data-role="navbar" class="block-white">
+  <ul>
+    <li><a href="#" data-ajax="false">購買遊戲點數</a></li>
+    <li><a href="#" class="last-tab ui-btn-active" data-ajax="false">購買APP大師點數</a></li>
+  </ul>
+</div>
+<h2 class="heading-udl">信用卡 輸入卡號</h2>
+<div class="margin-lr">
+	<div class="app-headblock">
+		<h2>購買金額</h2>
+		<p class="note note-big"><span class="red">150台幣 = 150現金點數</p>
+	</div>
+	<label for="">請輸入信用卡卡號</label>
+	<div class="ui-grid-c margin-tb">
+    <div class="ui-block-a"><input type="number" name="number1" pattern="[0-9]*" value=""></div>
+    <div class="ui-block-b"><input type="number" name="number2" pattern="[0-9]*" value=""></div>
+    <div class="ui-block-c"><input type="number" name="number3" pattern="[0-9]*" value=""></div>
+    <div class="ui-block-d"><input type="number" name="number4" pattern="[0-9]*" value=""></div>
+	</div>
+	<label for="">信用卡安全碼末3碼數字</label>
+	<input type="number" name="number" pattern="[0-9]*" value="">
+	<label for="">卡片有效期限</label>
+	<div class="ui-grid-a">
+		<div class="ui-block-a"><select name="year" id="year"><option value="">年</option><option value="">2014</option><option value="">2015</option><option value="">2016</option></select></div>
+		<div class="ui-block-b"><select name="month" id="month"><option value="">月</option><option value="">01</option><option value="">02</option><option value="">03</option><option value="">04</option><option value="">05</option><option value="">06</option><option value="">07</option><option value="">08</option><option value="">09</option><option value="">10</option><option value="">11</option><option value="">12</option></select></div>
+	</div>
+	<a href="#" class="btn-big btn-cstPrimary" >確定付款</a>
+	<div class="warningBox" data-role="collapsible" data-theme="b" data-content-theme="b" data-collapsed-icon="info" data-expanded-icon="carat-u">
+		<h4>注意事項</h4>
+		<ul class="collapsed-list">
+			<li>1. 請輸入以上信用卡資料、以便於向發卡行取得交易授權。完成交易授權只是發卡行確認信用卡的有效性及授權交易額度，您的信用卡信用額度在交易金額範圍內會被保留，但不代表您的付款已經完成，這筆交易也還不會出現在您的信用卡帳單中。</li>
+			<li>2. 如果您所訂購的商品交易條件經確認無誤，我們才會向發卡行請款，只有當我們收到信用卡交易款項時，您的付款程序才算完成。</li>
+			<li>3. 為確保網路交易安全，您同意本公司得就此筆交易向發卡銀行、收單行及持卡人核對是否屬實；您所填寫的身份證字號、出生年月日資料，亦將於核對完成後刪除。</li>
+		</ul>
+	</div>
+</div>
+
+</body>
+</html>

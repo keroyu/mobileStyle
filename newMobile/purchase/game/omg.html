@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<title>OMG點數扣款</title>
+<meta name="viewport" content="height=device-height,width=device-width,initial-scale=1.0,maximum-scale=1.0" >
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<!-- CORE JAVASCRIPT FILES TO CALL -->
+<script type="text/javascript" src="../../../scripts/lib/jquery.js"></script>
+<script type="text/javascript" src="../../../scripts/lib/jquery.mobile-1.4.0.min.js"></script>
+<script type="text/javascript" src="../../../scripts/main.js"></script>
+<link rel="stylesheet" href="../../../css/jquery.mobile-1.4.0.min.css">
+<!-- CORE JAVASCRIPT FILES TO CALL end -->
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" href="../../../css/base.css">
+</head>
+<body>
+<div data-role="navbar" class="block-white">
+  <ul>
+    <li><a href="#" data-ajax="false">購買遊戲點數</a></li>
+    <li><a href="#" class="last-tab ui-btn-active" data-ajax="false">購買APP大師點數</a></li>
+  </ul>
+</div>
+<h2 class="heading-udl">OMG點數扣款</h2>
+<div class="margin-lr margin-tb">
+	<table class="mytable" width="100%">
+		<tr><td class="header">OMG帳號</td><td>xxxxxxxxxxxxxx</td></tr>
+		<tr><td class="header">OMG現金點數</td><td>1,000</td></tr>
+		<tr><td class="header">OMG紅利點數</td><td>1,000</td></tr>
+		<tr><td class="header">扣除點數</td><td>150</td></tr>
+	</table>
+	<p class="help margin-top">選擇扣除：</p>
+	<div class="ui-grid-a">
+		<div class="ui-block-a"><input type="radio" name="method" id="cach" value="cach" checked="checked"><label for="cach">現金點數</label></div>
+		<div class="ui-block-b"><input type="radio" name="method" id="points" value="points" ><label for="points">紅利點數</label></div>
+	</div>
+	<p class="red margin-tb">現金點數不足，無法付款！</p>
+	<a href="#" class="btn-big btn-cstPrimary" >確定付款</a>
+	<a class="ui-btn ui-miniui-shadow ui-corner-all ui-icon-back ui-btn-icon-left" href="#">重選付款方式</a>
+</div>
+
+</body>
+</html>

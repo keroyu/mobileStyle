@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<title>MyCard行動遊戲卡儲值</title>
+<meta name="viewport" content="height=device-height,width=device-width,initial-scale=1.0,maximum-scale=1.0" >
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<!-- CORE JAVASCRIPT FILES TO CALL -->
+<script type="text/javascript" src="../../../scripts/lib/jquery.js"></script>
+<script type="text/javascript" src="../../../scripts/lib/jquery.mobile-1.4.0.min.js"></script>
+<script type="text/javascript" src="../../../scripts/main.js"></script>
+<link rel="stylesheet" href="../../../css/jquery.mobile-1.4.0.min.css">
+<!-- CORE JAVASCRIPT FILES TO CALL end -->
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" href="../../../css/base.css">
+</head>
+<body>
+
+<div data-role="navbar" class="block-white">
+  <ul>
+    <li><a href="#" data-ajax="false">購買遊戲點數</a></li>
+    <li><a href="#" class="last-tab ui-btn-active" data-ajax="false">購買APP大師點數</a></li>
+  </ul>
+</div>
+<h2 class="heading-udl">MyCard行動遊戲卡</h2>
+<div class="margin-lr">
+	<label for="tel">儲值點卡</label>
+	<input type="text" value="" placeholder="卡號：MyCard行動遊戲卡卡號">
+	<input type="password" value="" placeholder="密碼：16位大寫英數組合">
+	<p class="help red margin-tb">* 卡號或密碼錯誤。(請注意卡號及密碼的大小寫)</p>
+	<div class="warningBox" data-role="collapsible" data-theme="b" data-content-theme="b" data-collapsed-icon="info" data-expanded-icon="carat-u" data-collapsed="false">
+		<h4>注意事項</h4>
+		<ul class="collapsed-list">
+			<li>1. 您所儲值的點數卡將全部兌換為APP大師點數。(1台幣=1點APP大師現金點數)</li>
+			<li>2. 請至7-11或萊爾富便利商店，購買My Card行動遊戲卡。</li>
+		</ul>
+	</div>
+	<a href="purchase.html" class="btn-big btn-cstPrimary">確定儲值</a>
+	<a class="ui-btn ui-miniui-shadow ui-corner-all ui-icon-back ui-btn-icon-left" href="#">重選點卡或其他儲值方式</a>
+</div>
+
+</body>
+</html>
