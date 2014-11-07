@@ -9,12 +9,30 @@
 <script type="text/javascript" src="../scripts/lib/jquery.js"></script>
 <script type="text/javascript" src="../scripts/lib/jquery.mobile-1.4.0.min.js"></script>
 <script type="text/javascript" src="../scripts/main.js"></script>
+<script type="text/javascript" src="../scripts/fixTopframe.js"></script>
 <link rel="stylesheet" href="../css/jquery.mobile-1.4.0.min.css">
 <!-- CORE JAVASCRIPT FILES TO CALL end -->
 <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 <link rel="stylesheet" href="../css/base.css">
+<!-- bxslider -->
+<script type="text/javascript" src="../scripts/lib/jquery.bxslider.js"></script>
 </head>
+<script>$(function(){ $('.bxslider').bxSlider(); }); </script>
 <body>
+<div id="topframe">
+	<div class="topframe">
+		<a href="" class="pull-left"><i class="fa fa-bars"></i></a>
+		<div class="logo"></div>
+	</div>
+	<div class="topframe-menu">
+		<ul><li><a href="#"><i class="fa fa-gamepad"></i>遊戲</a></li><li><a href="#"><i class="fa fa-money"></i>儲值</a></li><li><a href="#"><i class="fa fa-bullhorn"></i>好康</a></li><li><a href="#"><i class="fa fa-search"></i>搜尋</a></li></ul>
+	</div>
+</div>
+<ul class="bxslider">
+  <li><a href="#"><img src="//placehold.it/680x400" /></a></li>
+  <li><a href="#"><img src="//placehold.it/680x400" /></a></li>
+  <li><a href="#"><img src="//placehold.it/680x400" /></a></li>
+</ul>
 <div class="margin-lr">
 	<ul class="mylist-3 mylist-icon-left">
 	  <li>
@@ -38,8 +56,15 @@
 	  		<p>遊戲 - 角色扮演<span class="pull-right btns"><a href="#" class="btn btn-small">下載</a><a href=""# class="btn btn-small">官網</a></span></p>
 			</div>
 	  </li>
+	  <li>
+			<i><img src="//placehold.it/120x120" class="responsive"></i>
+			<div class="txt">
+	  		<h3>遊戲名稱遊戲名稱遊戲名稱遊戲名稱</h3>
+	  		<p>遊戲 - 角色扮演<span class="pull-right btns"><a href="#" class="btn btn-small">下載</a><a href=""# class="btn btn-small">官網</a></span></p>
+			</div>
+	  </li>
 	</ul>
 </div>
-<a class="link-more margin-top" href="#">MORE<i class="ui-btn ui-shadow ui-corner-all ui-icon-plus ui-btn-icon-notext ui-btn-inline">Plus</i></a>
+<a class="link-more margin-top" href="#">MORE<i class="ui-btn ui-shadow ui-corner-all ui-icon-plus ui-btn-icon-notext ui-btn-inline"></i></a>
 </body>
 </html>

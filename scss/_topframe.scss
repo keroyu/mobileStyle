@@ -1,3 +1,10 @@
+#topframe {
+	position: fixed;
+	top: 0px;
+	z-index: 10;
+	width: 100%;
+}
+
 .topframe {
 	height: 45px;
 	background: url("../img/topbar_bg.png");
@@ -40,7 +47,7 @@
 			}
 			&:hover, &:active { 
 				background: #fff; 
-				a:link, &:visited { color: #8BA305;  }
+				a:link, a:visited { color: #8BA305;  }
 			}
 		}
 	}

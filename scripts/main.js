@@ -1,5 +1,4 @@
 $(function(){
-
 	$('.toggle-btn').click(function(){
 		$(this).parents('li').siblings().find('.toggle-target').hide();
 		$(this).siblings('.toggle-target').toggle();
