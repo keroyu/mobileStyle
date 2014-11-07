@@ -39,7 +39,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 .text-center { text-align: center; }
 .text-center > * { margin: 0 auto; }
 
-.text-overflow { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.text-overflow, .mylist-3 h3 { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
 .rsmodal-resp { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
@@ -106,12 +106,20 @@ img.responsive { width: 100%; height: auto; }
 
 .mylist-1 .txt { position: relative; top: 18px; }
 
-.mylist-2 .txt { color: #004be5; }
+.mylist-2 .txt { overflow: hidden; color: #004be5; }
 .mylist-2 .txt h3 { margin-bottom: 3px; color: #000; font-weight: bold; }
 .mylist-2 li .tag { margin-left: 5px; text-shadow: none; }
-
 .mylist-2.records { color: #000; }
 .mylist-2.records .date { font-weight: normal; font-size: 13px; }
+
+.mylist-3 h3 { color: #000; font-size: 18px; font-weight: bold; margin-top: 4px; margin-bottom: 10px; }
+.mylist-3 p { font-size: 13px; }
+.mylist-3 li { border: 1px solid #ddd; height: 52px; padding: 12px 10px; background-color: #fff; }
+.mylist-3 li:not(first-child) { margin-top: 5px; }
+.mylist-3 .btns a { display: inline-block; background: #3da5bf; text-shadow: none; border-radius: 4px; }
+.mylist-3 .btns a:link, .mylist-3 .btns a:visited { text-decoration: none; color: #fff; }
+.mylist-3 .btns a:active { background-color: #555; }
+.mylist-3 .btns a:first-child { margin-right: 4px; }
 
 .help { font-weight: bold; font-size: 15px; line-height: 20px; text-align: left; }
 .help i.fa-info-circle { color: #353535; }
@@ -177,7 +185,7 @@ img.responsive { width: 100%; height: auto; }
 .mytable thead, .mytable .header { text-shadow: none; text-align: center; background: #555; color: #fff; line-height: 20px; padding: 5px; }
 .mytable tbody td { padding: 4px; text-align: left; border: 1px solid #555; }
 .mytable th, .mytable td { vertical-align: middle; }
-.mytable th .text-overflow, .mytable td .text-overflow { display: block; }
+.mytable th .text-overflow, .mytable th .mylist-3 h3, .mylist-3 .mytable th h3, .mytable td .text-overflow, .mytable td .mylist-3 h3, .mylist-3 .mytable td h3 { display: block; }
 .mytable th:not(.header), .mytable td:not(.header) { background: #fff; }
 .mytable .text-center { padding: 5px 2px; }
 .mytable .bd-btm { border-bottom: 3px solid #555; }
@@ -193,17 +201,17 @@ textarea { min-height: 100px; }
 .ui-navbar li.ui-block-a a { -webkit-border-top-left-radius: 5px; -webkit-border-bottom-left-radius: 5px; -moz-border-radius-topleft: 5px; -moz-border-radius-bottomleft: 5px; border-top-left-radius: 5px; border-bottom-left-radius: 5px; }
 .ui-navbar li:last-child a { -webkit-border-top-right-radius: 5px; -webkit-border-bottom-right-radius: 5px; -moz-border-radius-topright: 5px; -moz-border-radius-bottomright: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; }
 
-.btn { cursor: pointer; text-align: center; }
+.btn { display: inline-block; cursor: pointer; text-align: center; }
 
-.br5 { border-radius: 5px; }
+.btn-small { padding: 5px 10px; }
 
 .btn-tiny { padding: 2px 5px; }
+
+.br5 { border-radius: 5px; }
 
 .btn-fb, .fb-search.ui-link { background: #5a83c5; /* Old browsers */ /* IE9 SVG, needs conditional override of 'filter' to 'none' */ background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzVhODNjNSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iIzNjNWE5OCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMxZTQwN2QiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+); /* FF3.6+ */ background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #5a83c5), color-stop(50%, #3c5a98), color-stop(100%, #1e407d)); /* Chrome,Safari4+ */ background: -webkit-linear-gradient(top, #5a83c5 0%, #3c5a98 50%, #1e407d 100%); /* Chrome10+,Safari5.1+ */ /* Opera 11.10+ */ /* IE10+ */ background: -webkit-gradient(linear, left top, left bottom, from(#5a83c5), color-stop(50%, #3c5a98), to(#1e407d)); background: linear-gradient(to bottom, #5a83c5 0%, #3c5a98 50%, #1e407d 100%); /* W3C */ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5a83c5', endColorstr='#1e407d',GradientType=0 ); /* IE6-8 */ }
 .btn-fb:visited, .fb-search.ui-link:visited, .btn-fb:link, .fb-search.ui-link:link { color: #fff; text-shadow: 1px 1px 1px #000; }
 .btn-fb:active, .fb-search.ui-link:active { background: #5a83c5; }
-
-.br5 { border-radius: 5px; }
 
 .gr-black { background: #4b4b4b; /* Old browsers */ /* IE9 SVG, needs conditional override of 'filter' to 'none' */ background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRiNGI0YiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMzNTM1MzUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+); /* FF3.6+ */ background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #4b4b4b), color-stop(100%, #353535)); /* Chrome,Safari4+ */ background: -webkit-linear-gradient(top, #4b4b4b 0%, #353535 100%); /* Chrome10+,Safari5.1+ */ /* Opera 11.10+ */ /* IE10+ */ background: -webkit-gradient(linear, left top, left bottom, from(#4b4b4b), to(#353535)); background: linear-gradient(to bottom, #4b4b4b 0%, #353535 100%); /* W3C */ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4b4b4b', endColorstr='#353535',GradientType=0 ); /* IE6-8 */ }
 

@@ -116,6 +116,7 @@
 
 .mylist-2{
 	.txt{ 
+		overflow: hidden;
 		h3{ margin-bottom: 3px; color: #000; font-weight: bold; }
 		color: $blue;
 	}
@@ -125,8 +126,42 @@
 			text-shadow: none;
 		}
 	}
+	&.records{
+		.date { font-weight: normal; font-size: 13px; }
+		color: #000;
+	}
 }
-.mylist-2.records{
-	.date { font-weight: normal; font-size: 13px; }
-	color: #000;
+
+.mylist-3 {
+	h3 {
+		color: #000;
+		font-size: 18px;
+		font-weight: bold;
+		margin-top: 4px;
+		margin-bottom: 10px;
+		@extend .text-overflow;
+	}
+	p {
+		font-size: 13px;
+	}
+	li {
+		border: 1px solid #ddd;
+		height: 52px;
+		padding: 12px 10px;
+		background-color: #fff;
+		&:not(first-child) {
+			margin-top: 5px;
+		}
+	}
+	.btns {
+		a {
+			display: inline-block;
+			background: $navy;
+			text-shadow: none;
+			@include border-radius(4px);
+			&:link, &:visited { text-decoration: none; color: #fff; }
+			&:active { background-color: #555; }
+			&:first-child { margin-right: 4px; }
+		}
+	}
 }

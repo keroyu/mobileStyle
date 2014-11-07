@@ -1,15 +1,19 @@
 @charset "utf-8";
 
 .btn{ 
-	cursor: pointer; text-align: center; 
+	display: inline-block;
+	cursor: pointer; 
+	text-align: center; 
 }
+.btn-small{ padding: 5px 10px; }
+.btn-tiny{  padding: 2px 5px;}
 .br5{
 	-webkit-border-radius: 5px; 
 	-moz-border-radius: 5px; 
 	border-radius: 5px; 
 }
 
-.btn-tiny{  padding: 2px 5px;}
+
 .btn-fb{
 	background: #5a83c5; /* Old browsers */
 	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
@@ -25,9 +29,6 @@
 	&:visited, &:link { color: #fff; text-shadow: 1px 1px 1px #000; }
 	&:active{ background: #5a83c5; }
 }
-
-
-.br5{-webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; }
 .gr-black{
 	background: #4b4b4b; /* Old browsers */
 	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
