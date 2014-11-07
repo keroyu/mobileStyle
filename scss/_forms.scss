@@ -9,3 +9,20 @@ textarea {
 		background-color: #bbd117;
 	}
 }
+
+.search-form {
+	overflow: hidden;
+}
+.search-form-input, .search-form-btn {
+	float: left;
+}
+.search-form-input {
+	padding-right: 8px;
+}
+.search-form-btn {
+	button { 
+		height: 37px; 
+		width: 10px;
+		&.ui-btn-icon-left:after { left: 15px; }
+	}
+}

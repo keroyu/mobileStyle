@@ -196,6 +196,15 @@ textarea { min-height: 100px; }
 
 .ui-select .ui-btn-icon-left:after, .ui-select .ui-btn-icon-right:after, input[type=radio] .ui-btn-icon-left:after, input[type=radio] .ui-btn-icon-right:after { background-color: #bbd117; }
 
+.search-form { overflow: hidden; }
+
+.search-form-input, .search-form-btn { float: left; }
+
+.search-form-input { padding-right: 8px; }
+
+.search-form-btn button { height: 37px; width: 10px; }
+.search-form-btn button.ui-btn-icon-left:after { left: 15px; }
+
 .ui-navbar li a:link { background-color: #fff; border-color: #0159A5; color: #0071D3; font-size: 16px; padding-left: 10px; padding-right: 10px; }
 .ui-navbar li a:link.ui-btn-active { background: #0159A5; }
 .ui-navbar li.ui-block-a a { -webkit-border-top-left-radius: 5px; -webkit-border-bottom-left-radius: 5px; -moz-border-radius-topleft: 5px; -moz-border-radius-bottomleft: 5px; border-top-left-radius: 5px; border-bottom-left-radius: 5px; }
