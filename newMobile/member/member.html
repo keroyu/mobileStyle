@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<title>個人資料管理</title>
+<meta name="viewport" content="height=device-height,width=device-width,initial-scale=1.0,maximum-scale=1.0" >
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<!-- CORE JAVASCRIPT FILES TO CALL -->
+<script type="text/javascript" src="../../scripts/lib/jquery.js"></script>
+<script type="text/javascript" src="../../scripts/lib/jquery.mobile-1.4.0.min.js"></script>
+<script type="text/javascript" src="../../scripts/main.js"></script>
+<link rel="stylesheet" href="../../css/jquery.mobile-1.4.0.min.css">
+<!-- CORE JAVASCRIPT FILES TO CALL end -->
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" href="../../css/base.css">
+</head>
+<body>
+<h2 class="heading-udl">修改會員資料</h2>
+<div class="block-white">
+  <div class="member-info">
+		<ul class="member-info-detailList">
+			<li><span class="dt">會員編號：</span><span class="dd">800000000</span></li>
+			<li><span class="dt">帳號類型：</span><span class="dd">Facebook會員</span></li>
+			<li><span class="dt">帳號：</span><span class="dd">1000000000000000000000@macrowell.com.tw</span></li>
+		</ul>
+	</div>
+</div>
+<div class="block-blue">
+	<p>APP大師平台點數</p>
+	<ul class="list-vertical margin-tb">
+		<li><span class="dt">現金 </span><span class="dd">100,000</span></li>
+		<li><span class="dt">紅利</span><span class="dd">100,000</span></li>
+	</ul>
+</div>
+<div class="margin-lr">
+	<div class="member-info-form">
+		<label for="nickname">會員暱稱</label>
+		<input type="text" name="nickname" id="nickname" placeholder="請輸入10個字元內的中英文或數字" value="">
+		<label for="gender">性別</label>
+		<div class="ui-grid-a">
+			<div class="ui-block-a"><input type="radio" name="gender" value="male" id="male" checked="checked"><label for="male">男</label></div>
+			<div class="ui-block-b"><input type="radio" name="gender" id="female" value="female" ><label for="female">女</label></div>
+		</div>
+		<label for="gender">生日</label>
+		<div class="ui-grid-b">
+			<div class="ui-block-a"><select name="year" id="year"><option value="">年</option><option value="">1998</option><option value="">1997</option><option value="">1996</option></select></div>
+			<div class="ui-block-b"><select name="month" id="month"><option value="">月</option><option value="">01</option><option value="">02</option><option value="">03</option><option value="">04</option><option value="">05</option><option value="">06</option><option value="">07</option><option value="">08</option><option value="">09</option><option value="">10</option><option value="">11</option><option value="">12</option></select></div>
+			<div class="ui-block-b"><select name="day" id="day"><option value="">日</option></select></div>
+		</div>
+		<label for="eMail">聯絡E-Mail</label>
+		<input type="text" name="email" id="email" placeholder="請填寫您的聯絡E-Mail" value="">
+		<a href="#" class="btn-big btn-cstPrimary">確定</a>
+	</div>
+</div>
+
+</body>
+</html>
