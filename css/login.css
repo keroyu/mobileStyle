@@ -79,8 +79,8 @@ li.ui-li-divider.ui-bar-inherit.ui-first-child { border-top: none; }
 
 .ui-overlay-a { background: #C4ED00; }
 
-.ui-page-theme-a { background: #C4ED00; }
-.ui-page-theme-a .ui-panel-wrapper { background: #C4ED00; }
+.ui-page.ui-page-theme-a.ui-page-active { background: #C4ED00; }
+.ui-page.ui-page-theme-a.ui-page-active .ui-panel-wrapper { background: #C4ED00; }
 
 .index-wrapper { text-align: center; }
 .index-wrapper .top { background-image: url(../img/index_tbg.png); -webkit-background-size: cover; background-size: cover; }
