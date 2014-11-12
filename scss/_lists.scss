@@ -9,7 +9,12 @@
 			background-color: #fff;
 			margin: 5px 10px;
 			border-bottom: 1px solid #ddd;
-			&:active { background-color: #eee; }
+		}
+		a.ui-btn-active  { 
+			background-color: #eee;
+			color: #000 !important;
+			text-shadow: none;
+			border-color: #ccc;
 		}
 		&:first-child {
 			-webkit-border-top-left-radius: 0px;

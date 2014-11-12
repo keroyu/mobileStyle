@@ -77,7 +77,7 @@ img.responsive { width: 100%; height: auto; }
 .cstListview.ui-listview { -webkit-box-shadow: none; box-shadow: none; }
 .cstListview.ui-listview .ui-btn-icon-right:after { background-color: #afc41e; }
 .cstListview.ui-listview li a.ui-btn { background-color: #fff; margin: 5px 10px; border-bottom: 1px solid #ddd; }
-.cstListview.ui-listview li a.ui-btn:active { background-color: #eee; }
+.cstListview.ui-listview li a.ui-btn-active { background-color: #eee; color: #000 !important; text-shadow: none; border-color: #ccc; }
 .cstListview.ui-listview li:first-child { -webkit-border-top-left-radius: 0px; -webkit-border-top-right-radius: 0px; -moz-border-radius-topleft: 0px; -moz-border-radius-topright: 0px; border-radius-topleft: 0px; border-radius-topright: 0px; }
 .cstListview.ui-listview li:first-child a { border-top: none; }
 
@@ -205,8 +205,9 @@ textarea { min-height: 100px; }
 .search-form-btn button { height: 37px; width: 10px; }
 .search-form-btn button.ui-btn-icon-left:after { left: 15px; }
 
-.ui-navbar li a:link { background-color: #fff; border-color: #0159A5; color: #0071D3; font-size: 16px; padding-left: 10px; padding-right: 10px; }
-.ui-navbar li a:link.ui-btn-active { background: #0159A5; }
+.ui-navbar li a.ui-btn:link, .ui-navbar li a.ui-btn:visited { background: #fff; border-color: #0159A5; color: #0071D3; font-size: 16px; padding-left: 10px; padding-right: 10px; }
+.ui-navbar li a.ui-btn:link.ui-btn-active, .ui-navbar li a.ui-btn:visited.ui-btn-active { background: #0159A5; color: #fff; }
+.ui-navbar li a:hover { border-color: #0159A5; background: #0159A5; }
 .ui-navbar li.ui-block-a a { -webkit-border-top-left-radius: 5px; -webkit-border-bottom-left-radius: 5px; -moz-border-radius-topleft: 5px; -moz-border-radius-bottomleft: 5px; border-top-left-radius: 5px; border-bottom-left-radius: 5px; }
 .ui-navbar li:last-child a { -webkit-border-top-right-radius: 5px; -webkit-border-bottom-right-radius: 5px; -moz-border-radius-topright: 5px; -moz-border-radius-bottomright: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; }
 

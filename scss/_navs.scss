@@ -1,13 +1,22 @@
 .ui-navbar{
 	li {
-		a:link {
-			background-color: #fff;
+		a.ui-btn{
+			&:link, &:visited {
+				background: #fff;
+				border-color: #0159A5; 
+				color: #0071D3;
+				font-size: 16px;
+				padding-left: 10px;
+				padding-right: 10px;
+				&.ui-btn-active { 
+					background: #0159A5; 
+					color: #fff;
+				}
+			}
+		}
+		a:hover {
 			border-color: #0159A5; 
-			color: #0071D3;
-			font-size: 16px;
-			padding-left: 10px;
-			padding-right: 10px;
-			&.ui-btn-active { background: #0159A5; }
+			background: #0159A5;
 		}
 		&.ui-block-a {
 			a {
