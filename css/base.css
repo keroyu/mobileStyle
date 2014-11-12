@@ -279,6 +279,8 @@ textarea { min-height: 100px; }
 .topframe a:link, .topframe a:visited { color: #000; }
 .topframe .logo { margin: 0 auto; width: 113px; height: 40px; background: url("../img/topbar_logo.png") no-repeat; -webkit-background-size: 113px 40px; background-size: 113px 40px; }
 
+#topframe + .bx-wrapper { margin-top: 80px; }
+
 .topframe-menu { background: #8BA305; height: 35px; }
 .topframe-menu ul li { display: inline-block; width: 25%; }
 .topframe-menu ul li a { line-height: 35px; display: inline-block; width: 100%; font-size: 15px; text-shadow: none; text-align: center; }
