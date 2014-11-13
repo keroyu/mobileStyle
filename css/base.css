@@ -121,6 +121,8 @@ img.responsive { width: 100%; height: auto; }
 .mylist-3 .btns a:active { background-color: #555; }
 .mylist-3 .btns a:first-child { margin-right: 4px; }
 
+.copyright { background: #8BA305; color: #fff; text-align: center; font-size: 13px; padding: 10px; text-shadow: none; }
+
 .help { font-weight: bold; font-size: 15px; line-height: 20px; text-align: left; }
 .help i.fa-info-circle { color: #353535; }
 
@@ -180,7 +182,7 @@ img.responsive { width: 100%; height: auto; }
 .mytable thead, .mytable .header { text-shadow: none; text-align: center; background: #555; color: #fff; line-height: 20px; padding: 5px; }
 .mytable tbody td { padding: 4px; text-align: left; border: 1px solid #555; }
 .mytable th, .mytable td { vertical-align: middle; }
-.mytable th .text-overflow, .mytable th .mylist-3 h3, .mylist-3 .mytable th h3, .mytable td .text-overflow, .mytable td .mylist-3 h3, .mylist-3 .mytable td h3 { display: block; }
+.mytable th .text-overflow, .mytable th .mylist-3 h3, .mylist-3 .mytable th h3, .mytable td .text-overflow, .mytable td .mylist-3 h3, .mylist-3 .mytable td h3 { display: block; max-width: 200px; }
 .mytable th:not(.header), .mytable td:not(.header) { background: #fff; }
 .mytable .text-center { padding: 5px 2px; }
 .mytable .bd-btm { border-bottom: 3px solid #555; }
@@ -197,8 +199,8 @@ textarea { min-height: 100px; }
 
 .search-form-input { padding-right: 8px; }
 
-.search-form-btn button { height: 37px; width: 10px; }
-.search-form-btn button.ui-btn-icon-left:after { left: 15px; }
+.search-form-btn button { height: 35px; width: 10px; }
+.search-form-btn button i { position: relative; right: 8px; bottom: 4px; }
 
 .ui-navbar li a.ui-btn:link, .ui-navbar li a.ui-btn:visited { background: #fff; border-color: #0159A5; color: #0071D3; font-size: 16px; padding-left: 10px; padding-right: 10px; }
 .ui-navbar li a.ui-btn:link.ui-btn-active, .ui-navbar li a.ui-btn:visited.ui-btn-active { background: #0159A5; color: #fff; }
@@ -246,10 +248,15 @@ textarea { min-height: 100px; }
 .submit-inline-btn { width: 19%; }
 .submit-inline-btn button { margin: 0 5px; padding: 7px 0; }
 
-.link-more { display: block; background: #fff; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; text-align: center; }
+.link-more { display: block; background: #fff; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; text-align: center; padding: 10px; }
 .link-more:link, .link-more:visited { color: #555; }
 .link-more:active { background: #eee; }
 .link-more i { position: relative; bottom: 3px; margin-left: 5px; }
+
+.btn-btm.ui-link { display: block; text-align: center; text-shadow: none; font-size: 15px; padding: 15px; background: #555; }
+.btn-btm.ui-link i { margin-right: 5px; }
+.btn-btm.ui-link:visited, .btn-btm.ui-link:link { color: #fff; }
+.btn-btm.ui-link:active { color: #eee; background: #666; }
 
 .iconimg.omg { background: url(../img/icon_omg.png) no-repeat; -webkit-background-size: 50px 50px; background-size: 50px 50px; }
 .iconimg.fb { background: url(../img/icon_fb.png) no-repeat; -webkit-background-size: 50px 50px; background-size: 50px 50px; }

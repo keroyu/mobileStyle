@@ -1,8 +1,8 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-TW">
 <head>
 <meta charset="UTF-8">
-<title>OMG點數扣款</title>
+<title>辣椒卡儲值</title>
 <meta name="viewport" content="height=device-height,width=device-width,initial-scale=1.0,maximum-scale=1.0" >
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <!-- CORE JAVASCRIPT FILES TO CALL -->
@@ -15,27 +15,25 @@
 <link rel="stylesheet" href="../../../css/base.css">
 </head>
 <body>
+
 <div data-role="navbar" class="block-white">
   <ul>
     <li><a href="#" data-ajax="false">購買遊戲點數</a></li>
     <li><a href="#" class="last-tab ui-btn-active" data-ajax="false">購買APP大師點數</a></li>
   </ul>
 </div>
-<h2 class="heading-udl">OMG點數扣款</h2>
-<div class="margin-lr margin-tb">
-	<table class="mytable" width="100%">
-		<tr><td class="header">OMG帳號</td><td>xxxxxxxxxxxxxx</td></tr>
-		<tr><td class="header">OMG遊戲點數</td><td>1,000</td></tr>
-		<tr><td class="header">OMG紅利點數</td><td>1,000</td></tr>
-		<tr><td class="header">扣除點數</td><td>150</td></tr>
-	</table>
-	<p class="help margin-top">選擇扣除：</p>
-	<div class="ui-grid-a">
-		<div class="ui-block-a"><input type="radio" name="method" id="cach" value="cach" checked="checked"><label for="cach">遊戲點數</label></div>
-		<div class="ui-block-b"><input type="radio" name="method" id="points" value="points" ><label for="points">紅利點數</label></div>
+<h2 class="heading-udl">辣椒卡</h2>
+<div class="margin-lr">
+	<label for="num">儲值點卡</label>
+	<div class="warningBox" data-role="collapsible" data-theme="b" data-content-theme="b" data-collapsed-icon="info" data-expanded-icon="carat-u" data-collapsed="false">
+		<h4>注意事項</h4>
+		<ul class="collapsed-list">
+			<li>1. 您所儲值的點數卡將全部兌換為APP大師點數。(1台幣=1點APP大師現金點數)</li>
+			<li>2. 僅開放台灣地區發行的辣椒卡儲值。</li>
+		</ul>
 	</div>
-	<a href="#" class="btn-big btn-cstPrimary" >確定付款</a>
-	<a class="ui-btn ui-miniui-shadow ui-corner-all ui-icon-back ui-btn-icon-left" href="#">重選付款方式</a>
+	<a href="purchase.html" class="btn-big btn-cstPrimary">確定儲值</a>
+	<a class="ui-btn ui-miniui-shadow ui-corner-all ui-icon-back ui-btn-icon-left" href="#">重選點卡或其他儲值方式</a>
 </div>
 
 </body>

@@ -21,8 +21,12 @@ textarea {
 }
 .search-form-btn {
 	button { 
-		height: 37px; 
+		height: 35px; 
 		width: 10px;
-		&.ui-btn-icon-left:after { left: 15px; }
+		i {
+			position: relative;
+			right: 8px;
+			bottom: 4px;
+		}
 	}
 }

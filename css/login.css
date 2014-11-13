@@ -77,10 +77,15 @@ li.ui-li-divider.ui-bar-inherit.ui-first-child { border-top: none; }
 .submit-inline-btn { width: 19%; }
 .submit-inline-btn button { margin: 0 5px; padding: 7px 0; }
 
-.link-more { display: block; background: #fff; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; text-align: center; }
+.link-more { display: block; background: #fff; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; text-align: center; padding: 10px; }
 .link-more:link, .link-more:visited { color: #555; }
 .link-more:active { background: #eee; }
 .link-more i { position: relative; bottom: 3px; margin-left: 5px; }
+
+.btn-btm.ui-link { display: block; text-align: center; text-shadow: none; font-size: 15px; padding: 15px; background: #555; }
+.btn-btm.ui-link i { margin-right: 5px; }
+.btn-btm.ui-link:visited, .btn-btm.ui-link:link { color: #fff; }
+.btn-btm.ui-link:active { color: #eee; background: #666; }
 
 .ui-overlay-a { background: #C4ED00; }
 
