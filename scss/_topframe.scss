@@ -3,6 +3,9 @@
 	top: 0px;
 	z-index: 10;
 	width: 100%;
+	& + .bx-wrapper {
+		margin-top: 80px;
+	}
 }
 
 .topframe {
@@ -27,9 +30,6 @@
 		background: url("../img/topbar_logo.png") no-repeat;
 		background-size: 113px 40px;
 	}
-}
-#topframe + .bx-wrapper {
-	margin-top: 80px;
 }
 .topframe-menu {
 	background: #8BA305;

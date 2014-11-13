@@ -176,11 +176,6 @@ img.responsive { width: 100%; height: auto; }
 .warningBox.ui-collapsible.ui-collapsible-themed-content .ui-btn-icon-left:after { background-color: #ce4141; }
 .warningBox.ui-collapsible.ui-collapsible-themed-content .ui-collapsible-content.ui-body-b { background: #fff; border-color: #ce4141; color: #000; text-shadow: none; }
 
-.link-more { display: block; background: #fff; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; text-align: center; }
-.link-more:link, .link-more:visited { color: #555; }
-.link-more:active { background: #eee; }
-.link-more i { position: relative; bottom: 3px; margin-left: 5px; }
-
 .mytable { border: 1px solid #555; }
 .mytable thead, .mytable .header { text-shadow: none; text-align: center; background: #555; color: #fff; line-height: 20px; padding: 5px; }
 .mytable tbody td { padding: 4px; text-align: left; border: 1px solid #555; }
@@ -251,6 +246,11 @@ textarea { min-height: 100px; }
 .submit-inline-btn { width: 19%; }
 .submit-inline-btn button { margin: 0 5px; padding: 7px 0; }
 
+.link-more { display: block; background: #fff; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; text-align: center; }
+.link-more:link, .link-more:visited { color: #555; }
+.link-more:active { background: #eee; }
+.link-more i { position: relative; bottom: 3px; margin-left: 5px; }
+
 .iconimg.omg { background: url(../img/icon_omg.png) no-repeat; -webkit-background-size: 50px 50px; background-size: 50px 50px; }
 .iconimg.fb { background: url(../img/icon_fb.png) no-repeat; -webkit-background-size: 50px 50px; background-size: 50px 50px; }
 .iconimg.phone { background: url(../img/icon_phone.png) no-repeat; -webkit-background-size: 50px 50px; background-size: 50px 50px; }
@@ -273,13 +273,12 @@ textarea { min-height: 100px; }
 .iconimg.head { background: url(../img/icon/icon_head.png) no-repeat; -webkit-background-size: 50px 50px; background-size: 50px 50px; }
 
 #topframe { position: fixed; top: 0px; z-index: 10; width: 100%; }
+#topframe + .bx-wrapper { margin-top: 80px; }
 
 .topframe { height: 45px; background: url("../img/topbar_bg.png"); background-position: right bottom; -webkit-background-size: auto 45px; background-size: auto 45px; text-align: center; border-bottom: 3px solid #000; }
 .topframe a { display: inline-block; font-size: 22px; height: 35px; width: 35px; margin: 12px 0 0 10px; }
 .topframe a:link, .topframe a:visited { color: #000; }
 .topframe .logo { margin: 0 auto; width: 113px; height: 40px; background: url("../img/topbar_logo.png") no-repeat; -webkit-background-size: 113px 40px; background-size: 113px 40px; }
-
-#topframe + .bx-wrapper { margin-top: 80px; }
 
 .topframe-menu { background: #8BA305; height: 35px; }
 .topframe-menu ul li { display: inline-block; width: 25%; }
