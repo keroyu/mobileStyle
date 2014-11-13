@@ -114,6 +114,11 @@ img.responsive { width: 100%; height: auto; }
 .submit-inline-btn { width: 19%; }
 .submit-inline-btn button { margin: 0 5px; padding: 7px 0; }
 
+.link-more { display: block; background: #fff; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; text-align: center; }
+.link-more:link, .link-more:visited { color: #555; }
+.link-more:active { background: #eee; }
+.link-more i { position: relative; bottom: 3px; margin-left: 5px; }
+
 .ui-page.ui-page-theme-a.ui-page-active { background: #2C343C; color: #D9D9D9; text-shadow: none; }
 .ui-page.ui-page-theme-a.ui-page-active a { text-decoration: none; }
 

@@ -177,17 +177,3 @@
 	}
 }
 
-.link-more {
-	display: block;
-	background: #fff;
-	border-top: 1px solid #ccc;
-	border-bottom: 1px solid #ccc;
-	text-align: center;
-	&:link, &:visited { color: #555; }
-	&:active { background: #eee; }
-	i {
-		position: relative;
-		bottom: 3px;
-		margin-left: 5px;
-	}
-}

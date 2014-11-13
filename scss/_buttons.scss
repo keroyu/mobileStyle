@@ -12,8 +12,6 @@
 	-moz-border-radius: 5px; 
 	border-radius: 5px; 
 }
-
-
 .btn-fb{
 	background: #5a83c5; /* Old browsers */
 	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
@@ -110,4 +108,19 @@
 .submit-inline-btn{
 	width: 19%;
 	button{ margin: 0 5px; padding: 7px 0; }
+}
+
+.link-more {
+	display: block;
+	background: #fff;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	text-align: center;
+	&:link, &:visited { color: #555; }
+	&:active { background: #eee; }
+	i {
+		position: relative;
+		bottom: 3px;
+		margin-left: 5px;
+	}
 }

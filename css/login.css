@@ -77,6 +77,11 @@ li.ui-li-divider.ui-bar-inherit.ui-first-child { border-top: none; }
 .submit-inline-btn { width: 19%; }
 .submit-inline-btn button { margin: 0 5px; padding: 7px 0; }
 
+.link-more { display: block; background: #fff; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; text-align: center; }
+.link-more:link, .link-more:visited { color: #555; }
+.link-more:active { background: #eee; }
+.link-more i { position: relative; bottom: 3px; margin-left: 5px; }
+
 .ui-overlay-a { background: #C4ED00; }
 
 .ui-page.ui-page-theme-a.ui-page-active { background: #C4ED00; }
