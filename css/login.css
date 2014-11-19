@@ -40,6 +40,7 @@ li.ui-li-divider.ui-bar-inherit.ui-first-child { border-top: none; }
 .btn { display: inline-block; cursor: pointer; text-align: center; }
 
 .btn-small { padding: 5px 10px; }
+.btn-small i { width: auto; height: auto; margin-right: 4px; }
 
 .btn-tiny { padding: 2px 5px; }
 

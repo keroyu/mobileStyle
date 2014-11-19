@@ -5,7 +5,10 @@
 	cursor: pointer; 
 	text-align: center; 
 }
-.btn-small{ padding: 5px 10px; }
+.btn-small{ 
+	padding: 5px 10px; 
+	i { width: auto; height: auto; margin-right: 4px; }
+}
 .btn-tiny{  padding: 2px 5px;}
 .br5{
 	-webkit-border-radius: 5px; 

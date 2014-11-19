@@ -116,10 +116,10 @@ img.responsive { width: 100%; height: auto; }
 .mylist-3 p { font-size: 13px; }
 .mylist-3 li { border: 1px solid #ddd; height: 52px; padding: 12px 10px; background-color: #fff; }
 .mylist-3 li:not(first-child) { margin-top: 5px; }
-.mylist-3 .btns a { display: inline-block; background: #3da5bf; text-shadow: none; border-radius: 4px; }
+.mylist-3 .btns a { display: inline-block; background: #3da5bf; text-shadow: none; border-radius: 4px; margin-right: 4px; }
 .mylist-3 .btns a:link, .mylist-3 .btns a:visited { text-decoration: none; color: #fff; }
 .mylist-3 .btns a:active { background-color: #555; }
-.mylist-3 .btns a:first-child { margin-right: 4px; }
+.mylist-3 .btns a:last-child { margin-right: 0px; }
 
 .copyright { background: #8BA305; color: #fff; text-align: center; font-size: 13px; padding: 10px; text-shadow: none; }
 
@@ -211,6 +211,7 @@ textarea { min-height: 100px; }
 .btn { display: inline-block; cursor: pointer; text-align: center; }
 
 .btn-small { padding: 5px 10px; }
+.btn-small i { width: auto; height: auto; margin-right: 4px; }
 
 .btn-tiny { padding: 2px 5px; }
 

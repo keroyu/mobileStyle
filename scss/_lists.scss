@@ -166,7 +166,8 @@
 			@include border-radius(4px);
 			&:link, &:visited { text-decoration: none; color: #fff; }
 			&:active { background-color: #555; }
-			&:first-child { margin-right: 4px; }
+			margin-right: 4px;
+			&:last-child { margin-right: 0px; }
 		}
 	}
 }
