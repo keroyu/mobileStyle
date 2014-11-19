@@ -37,6 +37,8 @@ li.ui-li-divider.ui-bar-inherit.ui-first-child { border-top: none; }
 
 .ui-btn-icon-left:after { background-color: #afc41e; }
 
+.btm-notice div.ui-checkbox:hover { background: inherit; }
+
 .btn { display: inline-block; cursor: pointer; text-align: center; }
 
 .btn-small { padding: 5px 10px; }
