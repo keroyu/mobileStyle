@@ -2,10 +2,10 @@ $(function(){
 	 $(window).scroll(function(){
 	 	var offset = $(window).scrollTop();
 	 	var obj = $('#topframe');
-	 	if( offset > 45 ) {
-	 		obj.animate({ 'top': '-45px' }, 300);
+	 	if( offset > 90 ) {
+	 		obj.animate({ 'top': '-45px' }, 100);
 	 	}else{
-	 		obj.animate({ 'top': '0px'}, 300);
+	 		obj.animate({ 'top': '0px'}, 100);
 	 	}
 	 });
 });
