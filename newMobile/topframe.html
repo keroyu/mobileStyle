@@ -15,12 +15,42 @@
 <link rel="stylesheet" href="../css/base.css">
 </head>
 <body>
-<div class="topframe">
-	<a href="" class="pull-left"><i class="fa fa-bars"></i></a>
-	<div class="logo"></div>
+<div class="sdkMenu" data-role="panel" id="leftMenu" data-position="left" data-display="push" data-theme="a">
+	<div href="#" class="sdkMenu-topbar"><a href="#" data-rel="close" class="fa fa-arrow-left"></a></div>
+	<div class="sdkMenu-info">
+		<div class="clearfix">
+			<img src="../img/icon/icon_head.png" >
+			<div class="memberInfo">
+				<ul class="memberInfo-detailList">
+					<li><span class="dt">會員暱稱：</span><span class="dd">南港金城武南港金城武</span></li>
+					<li><span class="dt">會員編號：</span><span class="dd">8000000000</span></li>
+					<li><span class="dt">帳號類型：</span><span class="dd">Facebook</span></li>
+					<li><span class="dt">帳號：</span><span class="dd">1000000000000000000000@macrowell.com.tw</span></li>
+				</ul>
+			</div>
+		</div>
+		<ul class="list-vertical margin-top">
+			<li><span class="dt">現金 </span><span class="dd">100,000</span></li>
+			<li><span class="dt">紅利</span><span class="dd">100,000</span></li>
+		</ul>
+	</div>
+	<a class="btn-big btn-cstPrimary login" href="#">註冊/登入會員</a>
+	<ul class="sdkMenu-list">
+		<li><a href=""><i class="profile"></i>修改會員資料</a></li>
+		<li><a href=""><i class="gear"></i>修改密碼</a></li>
+		<li><a href=""><i class="record"></i>購點記錄查詢</a></li>
+		<li><a href=""><i class="report"></i>聯繫客服</a></li>
+	</ul>
+	<a class="btn-big btn-cstPrimary logout inverse" href="#">登出</a>
 </div>
-<div class="topframe-menu">
-	<ul><li><a href="#"><i class="fa fa-gamepad"></i>遊戲</a></li><li><a href="#"><i class="fa fa-money"></i>儲值</a></li><li><a href="#"><i class="fa fa-bullhorn"></i>好康</a></li><li><a href="#"><i class="fa fa-search"></i>搜尋</a></li></ul>
+<div id="topframe">
+	<div class="topframe">
+		<a href="#leftMenu" class="pull-left"><i class="fa fa-bars"></i></a>
+		<div class="logo"></div>
+	</div>
+	<div class="topframe-menu">
+		<ul><li><a href="#"><i class="fa fa-gamepad"></i>遊戲</a></li><li><a href="#"><i class="fa fa-money"></i>儲值</a></li><li><a href="#"><i class="fa fa-bullhorn"></i>好康</a></li><li><a href="#"><i class="fa fa-search"></i>搜尋</a></li></ul>
+	</div>
 </div>
 </body>
 </html>

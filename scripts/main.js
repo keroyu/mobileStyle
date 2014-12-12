@@ -4,6 +4,22 @@ $(window).bind("load", function() {
 		$(this).siblings('.toggle-target').toggle();
 	});
 
+	/* GO TOP*/
+	$('#gotop').click(function(){
+		$('html, body').animate ({ scrollTop: 0 }, 500);
+	});
+
+	/* LEFT MENU WIDTH */
+	function menuResize(){
+		var wid = $(window).width();
+		if( wid > 330 ) wid = wid - 30;
+		$('#leftMenu').css({ 'width': wid+'px'  });
+	}
+	menuResize();
+	$(window).resize(function(){
+		menuResize();
+	});
+
 	/* TEXT-OVERFLOW */
 	/* MAKE STRING WIDTH RESPONSIVE */
 	/* DISPLAY TEXT-OVERFLOW EFFECTS */
@@ -34,7 +50,7 @@ $(window).bind("load", function() {
 	textOverflow('.rsmodal-container','.rsmodal-resp','.rsmodal-fixed', 10);
 
 	/* MEMBER/MEMBER .member-info-detailList */
-	textOverflow('.member-info-detailList li', '.dd', '.dt');
+	textOverflow('.memberInfo-detailList li', '.dd', '.dt');
 	/* PURCHASE/GAME/GAMELIST */
 	textOverflow('.list-blocks li', '.list-blocks-item-name', undefined, 15);
 	/* PURCHASE/A-POINT/AMOUNT */

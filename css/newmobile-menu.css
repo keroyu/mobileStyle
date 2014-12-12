@@ -26,7 +26,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 /* COLOUR SCHEME */
 .main { padding: 10px; }
 
-.margin-lr { margin: 0 10px; }
+.margin-lr { margin-left: 10px; margin-right: 10px; }
 
 .margin-left { margin-left: 10px; }
 
@@ -128,7 +128,12 @@ img.responsive { width: 100%; height: auto; }
 .ui-page.ui-page-theme-a.ui-page-active { background: #2C343C; color: #D9D9D9; text-shadow: none; }
 .ui-page.ui-page-theme-a.ui-page-active a { text-decoration: none; }
 
-.sdkMenu { background: #2C343C; color: #D9D9D9; padding-bottom: 100px; }
+.sdkMenu { background: #2C343C; color: #D9D9D9; }
+.sdkMenu .ui-panel-inner { padding: 0px; }
+
+.sdkMenu-topbar { display: block; padding: 5px; overflow: hidden; text-align: right; border-bottom: 1px #ccc solid; }
+.sdkMenu-topbar a.ui-link { margin-right: 8px; font-size: 28px; }
+.sdkMenu-topbar a.ui-link:visited, .sdkMenu-topbar a.ui-link:link { color: #fff; }
 
 .sdkMenu-info { padding: 15px 10px; }
 .sdkMenu-info img { float: left; border: 2px solid #fff; margin-right: 10px; width: 90px; height: 90px; }
@@ -143,14 +148,14 @@ img.responsive { width: 100%; height: auto; }
 .sdkMenu-list > li i.report { background: url(../img/icon/icon_qa.png) no-repeat; -webkit-background-size: 30px 30px; background-size: 30px 30px; }
 .sdkMenu-list > li i.profile { background: url(../img/icon/icon_profile.png) no-repeat; -webkit-background-size: 30px 30px; background-size: 30px 30px; }
 
-.member-info { overflow: hidden; white-space: nowrap; }
-.member-info > div { float: left; }
+.memberInfo { overflow: hidden; white-space: nowrap; }
+.memberInfo > div { float: left; }
 
-.member-info-detailList { font-size: 15px; line-height: 30px; }
-.member-info-detailList li { white-space: nowrap; overflow: hidden; }
-.member-info-detailList span { float: left; }
-.member-info-detailList .dt { width: 80px; }
-.member-info-detailList .dd { overflow: hidden; text-overflow: ellipsis; }
+.memberInfo-detailList { font-size: 15px; line-height: 30px; }
+.memberInfo-detailList li { text-shadow: none; white-space: nowrap; overflow: hidden; }
+.memberInfo-detailList span { float: left; }
+.memberInfo-detailList .dt { width: 80px; }
+.memberInfo-detailList .dd { overflow: hidden; text-overflow: ellipsis; }
 
 .list-vertical { overflow: hidden; }
 .list-vertical li, .list-vertical li span { float: left; line-height: 24px; }
