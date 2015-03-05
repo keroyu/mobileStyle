@@ -24,6 +24,8 @@ table { border-collapse: collapse; border-spacing: 0; }
 .clearfix { *zoom: 1; }
 
 /* COLOUR SCHEME */
+p { line-height: 145%; }
+
 .main { padding: 10px; }
 
 .margin-lr { margin-left: 10px; margin-right: 10px; }

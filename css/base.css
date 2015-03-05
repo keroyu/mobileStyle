@@ -24,6 +24,8 @@ table { border-collapse: collapse; border-spacing: 0; }
 .clearfix { *zoom: 1; }
 
 /* COLOUR SCHEME */
+p { line-height: 145%; }
+
 .main { padding: 10px; }
 
 .margin-lr { margin-left: 10px; margin-right: 10px; }
@@ -130,6 +132,7 @@ img.responsive { width: 100%; height: auto; }
 .app-headblock h2 { margin-top: 5px; margin-bottom: 5px; font-weight: bold; font-size: 18px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .app-headblock .note { font-size: 14px; line-height: 18px; color: #555; display: block; }
 .app-headblock .note > p { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.app-headblock .note.showall > p { white-space: normal; }
 .app-headblock .note.note-big { font-size: 16px; line-height: 22px; }
 
 .app-headblock-image, .app-headblock-title { float: left; }
